@@ -1,6 +1,5 @@
-import { Head } from '@/sections'
 import React from 'react'
-
+import { Head, PortfolioSec, Section } from '@/sections'
 const Portfolio = () => {
     return (
         <>
@@ -10,6 +9,7 @@ const Portfolio = () => {
                 robots="index, follow"
                 canonical="/portfolio"
             />
+            <Section children={<PortfolioSec />} />
         </>
     )
 }

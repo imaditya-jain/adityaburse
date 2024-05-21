@@ -1,4 +1,4 @@
-import { Head } from '@/sections'
+import { ContactSec, Head, Section } from '@/sections'
 import React from 'react'
 
 const Contact = () => {
@@ -10,6 +10,7 @@ const Contact = () => {
                 robots="index, follow"
                 canonical="/contact"
             />
+            <Section children={<ContactSec />} />
         </>
     )
 }
