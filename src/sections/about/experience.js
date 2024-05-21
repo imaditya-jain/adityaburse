@@ -7,7 +7,7 @@ import { Box, Grid, Typography } from '@mui/material';
 const Experience = () => {
     return (
         <>
-            <SectionTitle orangeText="MY" whiteText="EXPERIENCE" titleBg="EXPERIENCE" />
+            <SectionTitle orangeText="EXPERIENCE" whiteText="MY" titleBg="EXPERIENCE" />
             <Box mt={2}>
                 <Grid container spacing={4} alignItems={"center"}>
                     <Grid item xs={12} md={6}>

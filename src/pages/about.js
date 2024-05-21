@@ -12,7 +12,7 @@ const About = () => {
                 title="About Aditya Nitin Burse - Full Stack Developer & SEO Specialist"
                 description="Discover the journey and expertise of Aditya Nitin Burse, a passionate developer specializing in React, Next.js, Node.js, and more. Learn about his experience, skills, and dedication to crafting innovative web solutions and seamless user experiences."
                 robots="index, follow"
-                canonical="/about"
+                canonical="/about/"
             />
             {
                 sections.map((section) => (

@@ -7,7 +7,7 @@ import { Box } from '@mui/material';
 const Education = () => {
     return (
         <>
-            <SectionTitle orangeText="My" whiteText="EDUCATION" titleBg="EDUCATION" />
+            <SectionTitle orangeText="EDUCATION" whiteText="MY" titleBg="EDUCATION" />
             <Box mt={2}>
                 {
                     education.map(item =>

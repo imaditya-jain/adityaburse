@@ -12,7 +12,7 @@ const Portfolio = () => {
                 <Grid container spacing={4}>
                     {
                         projects.map((project, index) => (
-                            <Grid item xs={12} sm={6} md={4}>
+                            <Grid item xs={12} sm={6} md={4} key={project.title}>
                                 <PortfolioCard link={project.link} title={project.title} excerpt={project.excerpt} employer={project.employer} img={project.img} />
                             </Grid>
                         ))

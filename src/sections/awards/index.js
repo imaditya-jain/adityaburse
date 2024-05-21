@@ -11,7 +11,7 @@ const AwardsSection = () => {
             <Box mt={2}>
                 <Grid container spacing={4}>
                     {
-                        awards.map(item => <Grid item xs={12} sm={6} md={4}>
+                        awards.map(item => <Grid key={item.title} item xs={12} sm={6} md={4}>
                             <PortfolioCard title={item.title} img={item.img} />
                         </Grid>)
                     }

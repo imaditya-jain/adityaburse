@@ -7,7 +7,7 @@ import { Box, Grid, } from '@mui/material';
 const Skills = () => {
     return (
         <>
-            <SectionTitle orangeText="My" whiteText="SKILLS" titleBg="" />
+            <SectionTitle orangeText="SKILLS" whiteText="MY" titleBg="SKILLS" />
             <Box mt={2}>
                 <Grid container spacing={4}>
 
