@@ -1,6 +1,6 @@
 const statistics = [
-    { key: "YEAR OF EXPERIENCE", value: "3" },
-    { key: "PROJECTS COMPLETED", value: "20+" },
+    { key: "YEAR OF EXPERIENCE", value: "3+" },
+    { key: "PROJECTS COMPLETED", value: "25+" },
     { key: "AWARD & RECOGNITION", value: "1" }
 ]
 
