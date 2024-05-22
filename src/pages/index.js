@@ -20,7 +20,7 @@ const index = () => {
           <Grid item xs={12} md={4} lg={3} className='d-none d-lg-block home-banner-bg'></Grid>
           <Grid item xs={12} md={7} >
             <Box p={2} className="d-flex justify-content-center d-lg-none">
-              <img src="/images/sq.png" className='img-fluid banner-mob-image' />
+              <img src="/images/sq.png" className='img-fluid banner-mob-image' alt="Aditya Nitin Burse (Jain)" title="Aditya Nitin Burse (Jain)" />
             </Box>
             <Box className="d-flex flex-column align-items-center align-items-lg-end">
               <Typography variant='h1' className='text-color mb-4 text-center text-sm-right'><span className='text-orange'>.I'm Aditya Burse (Jain) <HorizontalRule /></span><br />Full Stack Developer</Typography>

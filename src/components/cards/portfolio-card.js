@@ -7,7 +7,7 @@ const PortfolioCard = ({ link, title, excerpt, employer, img }) => {
     return (
         <>
             <Card component={Paper} key={title} sx={{ height: "100%", cursor: "pointer" }} className='portfolio-card cardEffect shadow-sm' onClick={() => router.push(link)}>
-                <CardMedia component="img" image={img} className='img-fluid' />
+                <CardMedia component="img" image={img} className='img-fluid' alt={`${title} - Aditya Nitin Burse (Jain)`} title={`${title} - Aditya Nitin Burse (Jain)`} />
                 <CardContent>
                     <Typography variant="h5" className="text-color">{title}</Typography>
                     <Typography className="text-orange" gutterBottom>{employer}</Typography>
