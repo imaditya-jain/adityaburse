@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://adityaburse.vercel.app/sitemap.xml
+Sitemap: https://www.adityaburse.in/sitemap.xml

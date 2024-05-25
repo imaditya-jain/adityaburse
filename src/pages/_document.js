@@ -5,7 +5,6 @@ export default function Document() {
     <Html lang="en">
       <Head>
         <meta name="author" content="Aditya Nitin Burse (Jain)" />
-        <meta name="google-site-verification" content="google86674b454b60a4ea" />
       </Head>
       <body>
         <Main />
