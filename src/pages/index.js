@@ -9,7 +9,7 @@ const index = () => {
   return (
     <>
       <Head
-        title="Aditya Nitin Burse - Expert React & Next.js Developer | Full Stack Developer | SEO Specialist"
+        title="Aditya Nitin Burse - Expert React & Next.js Developer | Full Stack Developer"
         description="Welcome to the portfolio of Aditya Nitin Burse, an award-winning React and Next.js developer. Explore captivating, responsive websites and web applications that stand out in the digital landscape. Let's bring your digital vision to life!"
         robots="index, follow"
         canonical="/"
