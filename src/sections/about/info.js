@@ -15,7 +15,7 @@ const Info = () => {
                     <Grid item xs={12} md={6}>
                         <Typography variant="h3" className="text-color" gutterBottom>PERSONAL INFOS</Typography>
                         <Box p={2} mb={2} className="d-flex justify-content-center d-sm-none">
-                            <img src="/images/sq.png" className='img-fluid banner-mob-image' alt="Aditya Nitin Burse (Jain)" title="Aditya Nitin Burse (Jain)" />
+                            <img src="/images/new-avatar.png" className='img-fluid banner-mob-image' alt="Aditya Nitin Burse (Jain)" title="Aditya Nitin Burse (Jain)" />
                         </Box>
                         <List className="personal-info">
                             {info.map((item) => (

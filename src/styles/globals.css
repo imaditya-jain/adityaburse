@@ -361,10 +361,10 @@ body.light .header .iconbox.active .icon {
 }
 
 .home-banner-bg {
-  background-image: url("/images/bg.jpg");
+  background-image: url("/images/new-2.jpg");
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: top;
+  background-position: 79% 0%;
   height: calc(100vh - 80px);
   z-index: 11;
   border-radius: 30px;
