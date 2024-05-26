@@ -13,6 +13,7 @@ const index = () => {
         description="Welcome to the portfolio of Aditya Nitin Burse, an award-winning React and Next.js developer. Explore captivating, responsive websites and web applications that stand out in the digital landscape. Let's bring your digital vision to life!"
         robots="index, follow"
         canonical="/"
+        keywords="Full Stack Developer, React Developer, Next.js Specialist, Web Development, SEO Expert, JavaScript Developer, Freelance Web Developer, Aditya Burse, Aditya Jain, Aditya, Jain, Burse, Aditya Nitin Burse, Aditya Nitin, Aditya Nitin Jain, Aditya Nitin Bures (Jain), Software Developer"
       />
       <Box className="color-block d-none d-lg-block"></Box>
       <Container maxWidth="xxl" id="home-banner" data-aos="slide-down">
