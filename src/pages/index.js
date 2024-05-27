@@ -26,7 +26,10 @@ const index = () => {
             <Box className="d-flex flex-column align-items-center align-items-lg-end">
               <Typography variant='h1' className='text-color mb-4 text-center text-sm-right'><span className='text-orange'>.I'm Aditya Burse (Jain) <HorizontalRule /></span><br />Full Stack Developer</Typography>
               <Typography className='text-color mb-4 text-center text-sm-right'>Crafting captivating websites and web applications<br /> with expertise in React, Next.js, and SEO.<br /> Let's bring your digital vision to life!</Typography>
-              <Button className='primary-button' onClick={() => router.push('/about')}>More About Me <ArrowForward className='ms-2' /></Button>
+              <Box className="d-flex flex-column flex-sm-row">
+                <Button className='primary-button me-0 me-sm-3 mb-3 mb-sm-0' onClick={() => router.push('/about')}>More About Me <ArrowForward className='ms-2' /></Button>
+                <Button className='primary-button' onClick={() => router.push('/portfolio')}>My Work <ArrowForward className='ms-2' /></Button>
+              </Box>
             </Box>
           </Grid>
         </Grid>

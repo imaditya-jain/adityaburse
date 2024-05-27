@@ -384,7 +384,7 @@ body.light .header .iconbox.active .icon {
 
 @media only screen and (max-width: 600px) {
   #home-banner {
-    height: 92vh;
+    height: auto;
   }
 }
 
