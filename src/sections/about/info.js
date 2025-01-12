@@ -33,7 +33,7 @@ const Info = () => {
                         </List>
                         <Box my={2}>
                             <Button className='primary-button'>
-                                <Link href="/resume/Resume - Aditya Burse.pdf" target='_blank' className='fw-bold text-color' download={true}>Download Resume</Link>
+                                <Link href="/resume/Aditya_Burse_MERN_Stack_Developer_2025.pdf" target='_blank' className='fw-bold text-color' download={true}>Download Resume</Link>
                             </Button>
                         </Box>
                     </Grid>
